@@ -111,3 +111,7 @@ variable "docker_image_url_nginx" {
   default     = "806924528571.dkr.ecr.us-west-1.amazonaws.com/nginx:latest"
 }
 
+variable "allowed_hosts" {
+  description = "Domain name for allowed hosts"
+  default     = "YOUR DOMAIN NAME"
+}
