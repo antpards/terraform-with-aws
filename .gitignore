@@ -1,0 +1,7 @@
+__pycache__
+.DS_Store
+*.sqlite3
+.terraform
+*.tfstate
+*.tfstate.backup
+*.tfstate.lock.info
